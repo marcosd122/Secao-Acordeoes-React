@@ -1,6 +1,6 @@
-# Curso-WEB--Gerador de Senha Aleatório II - JS
+# Curso-WEB -- Jogo da velha
 
-Projeto de desenvolvimento Gerador de Senha Aleatório II - JS 
+Projeto de desenvolvimento Jogo da velha
 
 Atividade curso Web
 
