@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Jogo da Velha</title>
+    <title>Jogo de dados</title>
 
     <!-- Poppins Fonte -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
@@ -19,60 +19,6 @@
 </head>
 <body>
 
-    <!-- Jogador -->
-    <div class="seleção">
-        <h2>Jogo da velha</h2>
-        <p>Selecione seu jogador</p>
-        <div class="players">
-            <button
-                class="player"
-                onClick="selecioneJogador('X')"
-            >
-                X
-            </button>
-            <button
-                class="player"
-                onClick="selecioneJogador('O')"
-            >
-                O
-            </button>
-        </div>
-    </div>
-
-    <!-- Tabuleiro -->
-    <div class="tabuleiro-de-jogo">
-        <table>
-            <tr>
-                <td class="célula" id="0"></td>
-                <td class="célula" id="1"></td>
-                <td class="célula" id="2"></td>
-            </tr>
-            <tr>
-                <td class="célula" id="3"></td>
-                <td class="célula" id="4"></td>
-                <td class="célula" id="5"></td>
-            </tr>
-            <tr>
-                <td class="célula" id="6"></td>
-                <td class="célula" id="7"></td>
-                <td class="célula" id="8"></td>
-            </tr>
-        </table>
-
-        <!-- Reset -->
-        <button class="reset" onclick="startGame()">Reset</button>
-
-    </div>
-
-    <!-- Vencedor -->
-    <div class="vencedor">
-
-        <h3></h3>
-
-        <!-- Reset -->
-        <button class="reset" onclick="startGame()">Jogar novamente</button>
-
-    </div>
 
 <!--JS-->
 <script src="js/script.js" type="text/javascript"></script>

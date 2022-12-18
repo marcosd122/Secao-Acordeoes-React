@@ -1,6 +1,6 @@
-# Curso-WEB -- Jogo da velha
+# Curso-WEB -- Jogar Dados
 
-Projeto de desenvolvimento Jogo da velha
+Projeto de desenvolvimento Jogar Dados
 
 Atividade curso Web
 
