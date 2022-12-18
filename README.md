@@ -1,6 +1,6 @@
-# Curso-WEB -- Aplicativo Meterológico
+# Curso-WEB -- Aplicativo Meteorológico
 
-Projeto de desenvolvimento Aplicativo Meterológico
+Projeto de desenvolvimento Aplicativo Meteorológico
 
 Atividade curso Web
 
