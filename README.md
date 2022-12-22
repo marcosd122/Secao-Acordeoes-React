@@ -1,6 +1,6 @@
-# Curso-WEB -- Aplicativo Meteorológico
+# Curso-WEB -- Previa Imagem - Upload
 
-Projeto de desenvolvimento Aplicativo Meteorológico
+Projeto de desenvolvimento Previa Imagem - Upload
 
 Atividade curso Web
 
