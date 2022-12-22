@@ -1,6 +1,6 @@
-# Curso-WEB -- Previa Imagem - Upload
+# Curso-WEB -- Seção Acordeões
 
-Projeto de desenvolvimento Previa Imagem - Upload
+Projeto de desenvolvimento Seção Acordeões
 
 Atividade curso Web
 
