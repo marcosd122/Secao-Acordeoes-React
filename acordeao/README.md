@@ -1,6 +1,6 @@
-# Curso-WEB -- Seção Acordeões
+# Curso-WEB -- Seção Acordeões - React
 
-Projeto de desenvolvimento Seção Acordeões
+Projeto de desenvolvimento Seção Acordeões - React
 
 Atividade curso Web
 
