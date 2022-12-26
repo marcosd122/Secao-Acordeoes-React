@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+    --cor-bg: #1f2641;
+    --cor-bg1: #2e3267;
+    --cor-bg2: #424890;
+    --cor-primaria: #151320;
+  
+    --cor-sucesso: #00bf8e;
+    --cor-alerta: #f7c94b;
+    --cor-perigo: #f75842;
+    --cor-perigo-variante: rgba(247, 88, 66, 0.4);
+  
+    --cor-branco: #fff;  
+    --cor-cinza:#eee;    
+    --cor-cinza1: #ccc;
+    --cor-cinza2:#edeef1;
+    --cor-cinza-variante: rgba(255, 255, 255, 0.7);
+    --cor-preto: #000;
+    
+    --cor-roxo: #454cad;
+    --cor-azul-var: #5f6982;
+    --cor-verde: #3be7bc;
+    --cor-azul:#2192FF;
+    
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 600ms ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--cor-bg);
+  color: var(--cor-branco);
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-texture.png);
+}
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 0;
+    /* background: var(--cor-cinza2); */
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 540px;
+    margin: 18px auto;
+    color: var(--cor-branco);
+}
+
+.accordionHeading {
+    background: var(--cor-azul-var);
+    padding: 14px 0;
+}
+
+.accordionHeading .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordionHeading p {
+    letter-spacing: 1.2px;
+    font-weight: 600;    
+}
+
+.accordionHeading span {
+    cursor: pointer;
+}
+
+.accordionContent {
+    background: var(--cor-roxo);
+    height: 0;
+    opacity: 0;
+    display: flex;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.accordionContent.show {
+    height: 180px;
+    opacity: 1;
+}
+
+.accordionContent .close {      
+    height: 0;
+    opacity: 0;
+}
+
+.accordionContent p {
+    font-size: 15px;
+    line-height: 1.6;
+}
